@@ -1,0 +1,20 @@
+
+class Main {
+    public static void main(String[] args) {
+        String s = "abccba";
+        String ans = "";
+        for(int i = 5; i>=0; i--){
+         
+            ans = ans + s.charAt(i);
+        }
+        System.out.println(ans);
+
+//CHECKING IF ANS WAS A PALINDROME OR NOT USNNG .equals()
+        if(ans.equals(s)){
+            System.out.println("Yes,Mawaa edi palindrome!");
+        }else{
+            System.out.println("No,Mawaaaa edi panidrome kaaduuuu!");
+        }
+    }
+
+}
